@@ -1,0 +1,96 @@
+header {
+  background-color: gray;
+  padding: 20px;
+}
+
+.navlist {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav {
+  position: absolute;
+  top: 50%;
+  right: 10%;
+}
+
+nav li {
+  margin: 0 0 0 15px;
+  display: inline;
+}
+
+nav a {
+  text-transform: uppercase;
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 25px;
+}
+nav a:hover {
+  color: plum;
+  font-size: 28px;
+}
+
+main {
+  background-color: black;
+}
+.produtos {
+  width: 940px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.produtos li {
+  text-align: center;
+  width: 30%;
+  box-sizing: border-box;
+  margin: 0 0.5%;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  padding: 30px 20px;
+  vertical-align: top;
+  display: inline-block;
+}
+.produtos li:hover {
+  border-color: plum;
+}
+.produtos li:active {
+  border-color: gray;
+}
+.produtos li:hover h2 {
+  font-size: 30px;
+}
+
+.produtos li:hover p {
+  color: plum;
+}
+
+.produtos h2 {
+  font-size: 25px;
+  padding-bottom: 5px;
+  color: #fff;
+  font-weight: bold;
+}
+
+main ul li p {
+  color: #fff;
+}
+
+.precos {
+  font-size: 18px;
+  margin-top: 10px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+footer {
+  background: url("./imagens/bg.jpg");
+  text-align: center;
+  padding: 40px 0;
+}
+
+.copyright {
+  color: plum;
+  font-size: 10px;
+  font-weight: lighter;
+}
