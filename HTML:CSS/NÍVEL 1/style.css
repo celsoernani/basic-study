@@ -1,0 +1,53 @@
+body {
+  background-color: #000000;
+}
+#banner {
+  width: 100%;
+}
+#principal {
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+}
+.header {
+  color: plum;
+  margin-left: 10px;
+  font-weight: bolder;
+}
+
+.titleplum {
+  color: plum;
+  text-align: center;
+}
+
+p {
+  color: pink;
+  font-weight: 100;
+}
+
+p strong {
+  color: darkcyan;
+  font-weight: 900;
+}
+#graytitle {
+  color: #fff;
+}
+
+#beneficios {
+  width: 100%;
+}
+
+ul {
+  display: inline-block;
+  vertical-align: top;
+  width: 30%;
+}
+.imagembeneficios {
+  width: 60%;
+  text-align: end;
+}
+
+.listitem {
+  color: pink;
+  font-style: italic;
+}
