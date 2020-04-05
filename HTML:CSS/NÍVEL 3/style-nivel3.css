@@ -1,0 +1,63 @@
+main {
+  width: 100%;
+  margin: 0 auto;
+  padding-left: 5%;
+}
+
+form label,
+form fieldset legend {
+  display: block;
+  color: white;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.input-padrao {
+  display: block;
+  padding: 15px;
+  margin: 20px 10px 0px 0px;
+  width: 50%;
+}
+
+.form-label-radio {
+  display: inline;
+}
+.checkbox {
+  margin: 20px 0;
+}
+
+.submit {
+  width: 50%;
+  padding: 20px;
+  cursor: pointer;
+  background-color: plum;
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+  font-weight: bold;
+  transition: 1s all;
+}
+
+.submit:hover {
+  background-color: purple;
+  transform: scale(1.1) rotateX(365deg);
+}
+
+table {
+  margin: 20px 0 40px;
+}
+
+thead {
+  background: gray;
+  color: white;
+  font-weight: bold;
+}
+
+tbody {
+  background: hotpink;
+}
+td,
+th {
+  border: 1px solid #000000;
+  padding: 8px 15px;
+}
