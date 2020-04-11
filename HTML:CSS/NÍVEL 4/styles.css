@@ -1,0 +1,83 @@
+body {
+  background-color: #000000;
+  font-family: 'Bebas Neue', cursive;
+}
+
+main {
+  padding: 0;
+}
+.banner {
+  width: 100%;
+}
+.principal {
+  width: 100%;
+  padding: 15px;
+  
+}
+
+.titleplum {
+  color: plum;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 1em;
+  clear: left;
+
+}
+.utensilios {
+  width: 120px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.map {
+  width: 100%;
+}
+
+.map p {
+  text-align: center;
+  color: #fff;
+  margin-bottom: 1em;
+}
+
+.video {
+display: flex; 
+ margin: 1em auto;
+ justify-content: center;
+}
+
+.principal p {
+  color: #fff;
+  font-weight: 100;
+}
+
+.principal p strong {
+  color: plum;
+  font-weight: 900;
+}
+
+.list-bene {
+  margin: 1em auto;
+  width: 100%;
+}
+.list-bene:last-child{
+  font-weight: bold;
+}
+
+.listitem {
+  color: plum;
+  font-style: italic;
+  line-height: 1.4;
+}
+
+.listitem:before{
+  content: "☕";
+}
+.listitem:after{
+  content: "☕";
+}
+
+@media screen and (max-width: 480px) { 
+  
+}
+
