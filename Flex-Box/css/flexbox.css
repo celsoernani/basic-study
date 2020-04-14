@@ -31,3 +31,28 @@
   /* flex-wrap: wrap; or */
   flex-flow: column wrap;
 }
+
+.conteudoPrincipal-cursos {
+  display: flex;
+  margin: 1%;
+  flex-wrap: wrap;
+}
+
+
+.conteudoPrincipal-cursos .conteudoPrincipal-cursos-link {
+  display: flex;
+  width: 23%;
+}
+
+
+.conteudoPrincipal-cursos .conteudoPrincipal-cursos-link:nth-child(4n){
+  margin-right: 0;
+}
+
+.conteudoPrincipal-cursos .conteudoPrincipal-cursos-link:nth-child(4n + 1){
+  margin-left: 0;
+}
+
+
+
+
